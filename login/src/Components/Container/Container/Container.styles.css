@@ -1,0 +1,176 @@
+.container {
+    background-color:#fff;
+    height: 635px;
+    width: 590px;
+    display: block;
+    position: absolute;
+    border-radius: 10px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Public Sans';
+    text-align: center;
+    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.1),
+    0px 8px 53px rgba(0, 120, 240, 0.25);
+}
+
+
+.container h1 {
+    position: absolute;
+    top: 95px;
+    left: 50%;
+    transform: translateX(-50%); 
+    font-size: 26px;
+    color: #0078f080;
+    font-weight: 400;
+    line-height: 31px;
+    margin: 0;
+}
+
+.container p {
+    font-family: 'Public Sans';
+    position: absolute;
+    font-size: 18px;
+    font-weight:400;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.6);
+    margin:0;
+    top: 178px;
+    left: 68px;
+    right: 68px;
+}
+
+#container_top_icon {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100px;
+    height: 100px;
+    background: rgba(0, 120, 240, 0.1);
+    box-shadow: 0px 4px 4px rgba(0, 120, 240, 0.1);
+    border-radius: 50%;
+}
+
+#top_icon {
+    height: 33.33px;
+    width: 33.33px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #0078F0;
+}
+
+#usuario {
+    position: absolute;
+    top: 259px;
+    left: 150px;
+    right: 150px;
+}
+
+#container_user_icon {
+    width: 289px;
+    height: 34px;
+
+    position: absolute;
+    top: 259px;
+    left: 150px;
+    right: 150px;
+}
+
+#user_icon {
+    height: 16px;
+    width: 16px;
+
+    color: rgba(0, 120, 240, 0.44);
+
+    position: absolute;
+    top: 50%;
+    right: -30px; 
+    transform: translateY(-50%);
+    padding: 0;
+
+    z-index: 1;
+}
+
+#senha {
+    position: absolute;
+    top: 343px;
+    left: 150px;
+    right: 150px;
+}
+
+#container_pass_icon { 
+    position: absolute;
+    top: 343px;
+    left: 150px;
+    right: 150px;
+  
+    width: 289px;
+    height: 34px;
+}
+
+
+.pass_icon {
+    height: 16px;
+    width: 16px;
+
+    color: rgba(0, 120, 240, 0.44);
+
+    position: absolute;
+    top: 50%;
+    right: -30px; 
+    transform: translateY(-50%);
+    padding: 0;
+
+    z-index: 1;
+}
+
+#load {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color:white;
+    border: 0;
+    border: 5px solid #fff;
+    border-top-color: #0078f0;
+    border-bottom-color:#0078F0 ;
+
+    position: absolute;
+    top: 457px;
+    left: 272.5px;
+    right: 272.5px;
+
+    display: none;
+    animation: spin .5s linear infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(0deg);
+    }
+    from {
+        transform: rotate(360deg);
+    }
+}
+
+.error {
+    display: none;
+    font-size: 15px;
+    font-weight: 700;
+    color: red;
+}
+
+#error {
+    position: absolute;
+    top: 300px;
+    left: 44%;
+    transform: translate(-50%)
+}
+
+#error_senha {
+    position: absolute;
+    top: 385px;
+    left: 26%
+
+}

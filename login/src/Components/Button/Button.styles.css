@@ -1,0 +1,27 @@
+.btn {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 288.09px;
+    height: 51.22px;
+    background: rgba(0, 120, 240, 0.1);
+    border-radius: 10px;
+    border: 1px solid #0078f0;
+    top: 452px;
+    right: 50%;
+    transform: translateX(50%);
+    font-family: "Roboto", sans-serif ;
+    font-weight: 800;
+    font-size: 15.36px;
+    color: rgba(0, 120, 240, 1);
+    display: block;
+}
+
+#btn:hover {
+    cursor: pointer;
+    background:  #0078f0;
+    color: #fff;
+}
+
+
+
